@@ -339,6 +339,22 @@
 		
 		"PaintBackgroundType"	"2"
 	}
+
+	"CurrencyStatusPanel"
+	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"0"
+		"ypos"				"r100"
+		"wide"				"100"
+		"tall"				"100"
+		"xpos_minmode"		"65"
+		"ypos_minmode"		"r88"
+		"visible" 			"0"
+		"enabled" 			"1"
+		
+		"PaintBackgroundType"	"2"
+	}
 	
 	HudProgressBar
 	{
@@ -1472,5 +1488,20 @@
 		"zpos"					"3"
 		"wide"					"f0"
 		"tall"					"f0"
+	}
+	"QueueHUDStatus"
+	{
+		"fieldName"				"QueueHUDStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"rs1-5"
+		"ypos"					"1"
+		"zpos"					"1001"
+		"wide"					"200"
+		"tall"					"18"
+		"proportionaltoparent"	"1"
+		"keyboardinputenabled"	"1"
+		"mouseinputenabled"		"0"
+		"alpha"					"100"
 	}
 }
